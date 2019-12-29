@@ -1,0 +1,14 @@
+CREATE DATABASE MVCCrud
+
+USE MVCCrud
+
+CREATE TABLE Customer(
+Id INT IDENTITY(1,1) PRIMARY KEY,
+Name VARCHAR(50),
+Description VARCHAR(50),
+)
+
+
+DROP TABLE Customer
+
+SELECT * FROM Customer
